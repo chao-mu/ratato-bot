@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ratato"
+version = "0.1.0"
+description = ""
+authors = ["Danimal <chao-mu@hackpoetic.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+discord-py-interactions = "^3.0.2"
+"discord.py" = "^1.7.3"
+PyYAML = "^5.4.1"
+asif = "^0.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
